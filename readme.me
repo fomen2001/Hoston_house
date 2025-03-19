@@ -1,0 +1,50 @@
+✅ Fichier README.md
+Voici un exemple de contenu clair et adapté à un utilisateur débutant :
+
+
+# Prédiction du prix des maisons à Boston
+
+Ce projet utilise un modèle de réseau de neurones (Keras/TensorFlow) entraîné sur le dataset **Boston Housing** pour prédire le prix des maisons.  
+Une interface utilisateur simple avec **Streamlit** permet d’observer les résultats et de faire des prédictions personnalisées.
+
+---
+
+## Structure du projet
+📁 Boston_House_Price/ │ ├── model.py # Entraînement du modèle et sauvegarde ├── app.py # Interface Streamlit pour visualiser les résultats et faire des prédictions ├── utils.py # Fonctions utilitaires (chargement du modèle, prédictions, etc.) ├── requirements.txt └── README.md
+
+
+
+---
+
+## Installation
+
+1. **Cloner le projet** ou télécharger les fichiers.  
+2. **Créer un environnement virtuel (optionnel mais recommandé) :**
+```bash
+python -m venv venv
+Activer l’environnement :
+Sur Windows :
+bash
+
+venv\Scripts\activate
+Sur Mac/Linux :
+bash
+
+source venv/bin/activate
+Installer les dépendances :
+bash
+
+pip install -r requirements.txt
+Exécuter le projet
+Lancer Streamlit :
+bash
+
+streamlit run app.py
+Une page web s’ouvrira automatiquement dans votre navigateur avec l’interface de prédiction.
+Fonctionnalités
+Affichage des courbes de perte (MSE) et d’erreur (MAE) pendant l’entraînement.
+Visualisation des comparaisons entre les prix réels et prédits.
+Possibilité de saisir manuellement les caractéristiques d’une maison pour obtenir une prédiction de son prix.
+
+Auteurs
+Projet réalisé par FOMENA TSATSOP VALDES JOEL dans le cadre d’un exercice pédagogique.
